@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles to the table */
+table {
+    border-collapse: collapse;
+    width: 1500px;
+    margin: 20px auto; /* Center the table */
+}
+
+/* Style for table cells */
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style for the image inside the table */
+td a img {
+    max-width: 100%; /* Make the image fill the width of the cell */
+    max-height: 300px; /* Set a maximum height for the images */
+    object-fit: cover; /* Maintain aspect ratio and cover the entire space */
+    display: block;
+    margin: 0 auto; /* Center the image */
+}
+
+/* Style for the link inside the table */
+td a {
+    text-decoration: none;
+    color: #007BFF; /* Set link color to blue */
+    font-weight: bold;
+}
+
+/* Style for link on hover */
+td a:hover {
+    color: #0056b3; /* Change link color on hover */
+}
+
+button {
+    padding: 8px 16px;
+    font-size: 16px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #3498db;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.ep {
+    justify-content: center;
+    display: flex;
+}
